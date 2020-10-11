@@ -22,12 +22,12 @@ The first step for all three of these strategies is to [publish to NPM](https://
 
 ### Script tag
 
-- Put a script tag similar to this `<script src='https://unpkg.com/my-stencil-component-example@0.0.1/dist/mycomponent.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/my-stencil-component-example@0.0.2/dist/my-stencil-component-example/my-stencil-component-example.esm.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
 - Run `npm install my-stencil-component-example --save`
-- Put a script tag similar to this `<script src='node_modules/my-stencil-component-example/dist/mycomponent.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='node_modules/my-stencil-component-example/dist/my-stencil-component-example/my-stencil-component-example.esm.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### In a stencil-starter app
